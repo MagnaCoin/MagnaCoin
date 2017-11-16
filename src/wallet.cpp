@@ -45,7 +45,7 @@ bool fPayAtLeastCustomFee = true;
  * so it's still 10 times lower comparing to bitcoin.
  * Override with -mintxfee
  */
-CFeeRate CWallet::minTxFee = CFeeRate(10000);
+CFeeRate CWallet::minTxFee = CFeeRate(1000000);
 
 /** @defgroup mapWallet
  *
