@@ -105,15 +105,15 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60; // Mgn: 1 minute
         nTargetSpacing = 1 * 60;  // Mgn: 1 minute
-        nLastPOWBlock = 14400;
-        nMaturity = 10;
+        nLastPOWBlock = 3000;
+        nMaturity = 100;
         nMasternodeCountDrift = 20;
         nModifierUpdateBlock = 0;
         nMaxMoneyOut = int64_t(20000000) * COIN;
         nModifierInterval = 60;
         nModifierIntervalRatio = 3;
         nBudgetPercent = 1;
-        nMinStakeAge = 60*60*0.3;//3 hour
+        nMinStakeAge = 60*60*3;//3 hour
         nMasternodeRewardPercent = 80; // % of block reward that goes to masternodes
         nRequiredMasternodeCollateral = 10000 * COIN; //10,000 masternodes
 
