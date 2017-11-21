@@ -114,7 +114,7 @@ public:
         nModifierIntervalRatio = 3;
         nBudgetPercent = 1;
         nMinStakeAge = 60*60*3;//3 hour
-        nMasternodeRewardPercent = 80; // % of block reward that goes to masternodes
+        nMasternodeRewardPercent = 70; // % of block reward that goes to masternodes
         nRequiredMasternodeCollateral = 10000 * COIN; //10,000 masternodes
 
         /**
